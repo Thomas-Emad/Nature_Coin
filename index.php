@@ -1,0 +1,162 @@
+<?php
+include './inc/db.php';
+include './inc/from.php';
+
+?>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="a.validate.01" content="dbff95e3c77be9af3c22347aadf04e360a8c" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/time.css">
+  <link rel="stylesheet" href="css/road-map.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+  <!-- icon top -->
+  <link rel="shortcut icon" href="image/logo-2.1.png">
+  <title>Nature Coin</title>
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container-head">
+      <a href="index.php"><img class="logo" src="image/logo-2.1.png" alt=""></a>
+      <ul>
+        <li><a href="#road-map">Road Map</a></li>
+      </ul>
+    </div>
+  </header>
+  <section class="big">
+    <section class="parent">
+      <div class="container">
+        <section class="box">
+          <div class="events" id="events">
+            <div class="info">
+              <div class="time">
+                <div class="unit">
+                  <span class="days">60</span>
+                  <span>Days</span>
+                </div>
+                <div class="unit">
+                  <span class="hours">00</span>
+                  <span>Hours</span>
+                </div>
+                <div class="unit">
+                  <span class="minutes">00</span>
+                  <span>Minutes</span>
+                </div>
+                <div class="unit">
+                  <span class="seconds">00</span>
+                  <span>Seconds</span>
+                </div>
+              </div>
+            </div>
+            <div class="get">
+              <p class="text-get">Wait 5 minutes to claim</p>
+              <div class="counter">
+                <span></span>
+              </div>
+              <!-- Get Conien -->
+              <div class="claim">
+                <form action="index.php" method="post">
+                  <input type="text" name="BSC" id="BSC" placeholder="Enter Your BSC Addrees" class="bsc" required>
+                  <div class="father-submit">
+                    <input type="submit" value="claim" name="submit">
+                    <i class="fas fa-leaf get-coien"></i>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="about">
+              <div class="icone">
+                <p class="text-about">Market Cap : 3000000$</p>
+              </div>
+              <div class="icone">
+                <p class="text-about">Circulating Supply : 100000000 <span>(Circulating Supply is airdrop)</span></p>
+              </div>
+              <div class="icone">
+                <p class="text-about">Total Supply : 300000000</p>
+              </div>
+              <div class="icone">
+                <p class="text-about">Max Supply : 300000000</p>
+              </div>
+              <div class="icone">
+                <p class="text-about">Note: The ads on the site go as profits to increase the capital of the currency
+                  and help the work team</p>
+              </div>
+              <p class="text-cen"><a href="#connect" class="call">Connect</a></p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <div class="bottom-add add-top-road-map">
+      <script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5288435"></script>
+      <script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5288435"></script>
+      <script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5288435"></script>
+
+    </div>
+    <div class="road-map" id="road-map">
+      <div class="container">
+        <div class="parent">
+          <div class="item dark">
+            <div class="roadmap-box background-ecc-pane">
+              <p class="mb-4 achieved"><span>Achieved</span></p>
+              <p class="text-grey">Create a site for the distribution of airdrops</p>
+            </div>
+          </div>
+          <div class="item dark">
+            <div class="roadmap-box current-road background-ecc-pane">
+              <p class="mb-4 current"><span>Current</span></p>
+              <p class="text-grey">Start distributing currencies backed by a capital of 3 million dollars to be ready
+                for trading</p>
+            </div>
+          </div>
+          <div class="item dark">
+            <div class="roadmap-box next-road background-ecc-pane">
+              <p class="mb-4 current"><span>Current</span></p>
+              <p class="text-grey">Searching for companies to acquire that care about agriculture, the environment and
+                improving green economy methods</p>
+            </div>
+          </div>
+          <div class="item dark">
+            <div class="roadmap-box next-road background-ecc-pane">
+              <p class="mb-4 current"><span>Current</span></p>
+              <p class="text-grey">Work to improve the environment and climate through these companies. Distribution of
+                profits from the profits of these companies in the form of currencies for holders of these currencies
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-add">
+      <script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5288263"></script>
+<script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5288263"></script>
+<script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5288263"></script>
+<script data-cfasync="false" type="text/javascript" src="https://www.onclickalgo.com/a/display.php?r=5288263"></script>
+
+    </div>
+
+  </section>
+  <footer id="connect">
+    <div class="right-fot">All rights © 2021 <span>ours</span></div>
+    <div class="left-fot">
+      <div><a href="https://www.facebook.com/Naturecoin-104990218665482" target="_blank" title="You Can Follow us"><i
+            class="fab fa-facebook-f"></i></a></div>
+      <div><a href="https://twitter.com/NHnology" target="_blank" title="You Can Follow us"><i class="fab fa-twitter"></i></a></div>
+            <div><a href="https://t.me/joinchat/yfp6zQ_TPaJlMmU8" target="_blank" title="You Can Follow us"><i
+            class="fab fa-telegram-plane"></i></a></div>
+    </div>
+  </footer>
+</body>
+<script src="js/main.js"></script>
+</html>
