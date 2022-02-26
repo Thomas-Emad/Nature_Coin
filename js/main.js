@@ -6,7 +6,7 @@
   // The End Of The Year Date
   // 1000 milliseconds = 1 Second
 
-  let countDownDate = new Date("Jan 01, 2023 23:59:59").getTime();
+  let countDownDate = new Date("Jan 1, 2023 23:59:59").getTime();
   // console.log(countDownDate);
 
   let counter = setInterval(() => {
